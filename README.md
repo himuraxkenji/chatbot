@@ -8,7 +8,7 @@ Requerimientos:
 
 Instalacion dependencias:
 
-- pip install`` -r requirements.txt
+- pip install -r requirements.txt
 
 
 Pasos de ejecucion:
