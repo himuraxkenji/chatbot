@@ -1,0 +1,108 @@
+{
+	"intents": [
+		{
+			"tag": "saludo",
+			"patterns": [
+				"Hola",
+				"Hey",
+				"Como estas?",
+				"Hay alguien aquí?",
+				"Hi",
+				"Buenos dias",
+				"Buenas noches",
+				"Buenas tardes"
+			],
+			"responses": [
+				"Hey :-)",
+				"Bienvenido",
+				"Hola, gracias por visitarme",
+				"Hola, en que puedo ayudarte?",
+				"Bienvenido, en que puedo ayudar?"
+			]
+		},
+		{
+			"tag": "despedida",
+			"patterns": [
+				"Bye",
+				"Adios",
+				"Nos vemos luego",
+				"Hasta mañana",
+				"Hasta luego"
+			],
+			"responses": [
+				"Nos vemos luego",
+				"Hasta la proxima",
+				"Hasta la vista baby",
+				"Adios, nos vemos luego"
+			]
+		},
+		{
+			"tag": "gracias",
+			"patterns": [
+				"Gracias",
+				"Eso me sirvio",
+				"Te agradezco un monto",
+				"Me es de utilidad"
+			],
+			"responses": [
+				"Estoy feliz de ayudar",
+				"No hay porque",
+				"De nada!"
+			]
+		},
+		{
+			"tag": "items",
+			"patterns": [
+				"Que productos vendes?",
+				"Qué tipos de articulos hay?",
+				"Que tienes a la venta?",
+				"Que venden?"
+			],
+			"responses": [
+				"Vendo te y café",
+				"Vendemos té y café"
+			]
+		},
+		{
+			"tag": "pagos",
+			"patterns": [
+				"Aceptan tarjetas de credito",
+				"Aceptan Mastercard",
+				"Puedo pagar con Mercado pago?",
+				"Acepta mercado pago?",
+				"Solo acepta efectivo?"
+			],
+			"responses": [
+				"Aceptamos la mayoria de tarjetas de credito y Mercado Pago",
+				"Se acepta efectivo, tajetas de credito  y Mercado Pago"
+			]
+		},
+		{
+			"tag": "delivery",
+			"patterns": [
+				"Cuanto tiempo tarda el delivery?",
+				"Tarda mucho el delivery?"
+			],
+			"responses": [
+				"Demora entre 5 y 10 minutos aprox.",
+				"Nuestro delivery tarde de 5 a 10 minutos aprox."
+			]
+		},
+		{
+			"tag": "funny",
+			"patterns": [
+				"Contame un chiste",
+				"chiste",
+				"Me cuentas un chiste",
+				"broma",
+				"Me cuentas una broma"
+			],
+			"responses": [
+				"Que pasa si tiras un pato al agua? Nada xD",
+				"¿Qué le menciona una IP a otra? — ¿Qué tramas?.",
+				"¿Qué es un terapeuta? – 1024 Gigapeutas.",
+				"¿Qué le dice un .GIF a un .JPEG? -Anímate viejo."
+			]
+		}
+	]
+}
